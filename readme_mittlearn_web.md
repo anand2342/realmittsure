@@ -75,3 +75,12 @@ php artisan view:cache
 php artisan optimize
 
 
+## Database Files
+
+### Database Structure
+- `mittlearn-db-structure-dump20260612.sql`
+
+### Full Database Dump
+The full database dump (~1.05 GB) is available here:
+
+https://mittsuree-my.sharepoint.com/:u:/r/personal/anand_kumar_mittsure_com/Documents/mittlearn-db-fulldata-dump20260612.sql?csf=1&web=1&e=ktdIqi
