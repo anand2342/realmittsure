@@ -1,0 +1,450 @@
+ .text-right {
+    text-align: right;
+}
+
+.dashCard {
+    height: 160px;
+}
+
+.input-div {
+    margin-bottom: 15px;
+}
+
+.select2-container {
+    display: inline;
+}
+
+.assignedCourseB2C {
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 2px 4px;
+    font-size: 12px;
+    border: 1px solid #9ca0a3;
+    border-radius: 15px;
+    white-space: nowrap;
+}
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.assigned-course-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    background-color: #e9ecef;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #495057;
+    border: 1px solid #dee2e6;
+}
+
+.delete-course-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6px;
+    text-decoration: none;
+    color: #6c757d;
+    cursor: pointer;
+    padding: 0;
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.delete-course-link:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.no-courses {
+    color: #6c757d;
+    font-style: italic;
+}
+
+.active-course-li {
+    border-left: 2px solid #dc3545;
+    background: #eee;
+}
+
+.select2-container .select2-selection--multiple {
+    min-height: 35px !important;
+    height: 35px !important;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #00438c !important;
+    --bs-btn-border-color: #00438c !important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #00438c !important;
+    --bs-btn-hover-border-color: #00438c !important;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #00438c !important;
+    --bs-btn-active-border-color: #00438c !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #00438c !important;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #00438c !important;
+    --bs-gradient: none;
+}
+
+input[type="checkbox"][readonly] {
+    pointer-events: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.filesView {
+    color: #000;
+}
+
+.filesView :hover {
+    color: #00a0c6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* .dropdown:hover>.dropdown-menu {
+    display: block !important;
+} */
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block !important;
+    left: 100%;
+    margin-top: -37px;
+}
+
+.dropdown-item {
+    font-size: small;
+    /* 13px */
+}
+
+.dropdown-toggle::after {
+    font-size: var(--font-md);
+    margin-bottom: -2px;
+}
+
+.dropdown-menu li a.active {
+    color: #fff;
+}
+
+.custom-toggle-arrow {
+    font-size: 18px;
+    margin-top: 1px;
+    line-height: 12px;
+}
+
+.eyeInput {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+.select2.select2-container.select2-container--default {
+    width: 100% !important;
+}
+
+.select2-container--default .select2-search--inline .select2-search__field {
+    padding: 0px 10px !important;
+    cursor: pointer !important;
+}
+
+.select2-results__option:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    height: 18px;
+    width: 18px;
+    border: 1px solid #b9b9b9;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.select2-results__option[aria-selected="true"]:before {
+    font-family: "bootstrap-icons";
+    content: "\F633";
+    color: #fff;
+    background-color: #00438c;
+    border: 0;
+    display: inline-block;
+    padding-left: 3px;
+}
+
+.select2-container--default .select2-search--inline .select2-search__field {
+    height: 28px !important;
+}
+
+.select2-results__option {
+    padding: 6px;
+    user-select: none;
+    -webkit-user-select: none;
+    font-size: 12px !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #dce9fe !important;
+    font-size: 12px !important;
+    padding: 4px 10px !important;
+    border: none !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #000000;
+    font-weight: bold;
+    margin-right: 8px !important;
+}
+
+.select2-container--default .select2-results__option[aria-selected="true"] {
+    background: none !important;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected="true"] {
+    color: #000 !important;
+}
+
+.cardtitleName {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #000000 !important;
+}
+
+/* Style the tab buttons */
+/* .nav-tabs .nav-link {
+    border-top: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+    color: #000000 !important;
+}
+
+.nav-tabs .nav-link.active {
+    border-top: 1px solid #818181;
+    border-left: 1px solid #818181;
+    border-right: 1px solid #818181;
+    color: #00438C !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa; 
+} */
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    height: 35px !important;
+    line-height: 1.5;
+    overflow-y: auto !important;
+    max-height: 150px !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+    border-color: #b9b9b9 !important;
+}
+
+.select2-container--default .select2-results__option {
+    display: flex;
+    align-items: center;
+}
+
+.select2-container--default .select2-results__option input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.customPagination {
+    margin: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+}
+
+.pagination .page-link {
+    border-radius: 50% !important;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 6px #00000029;
+    border: 0;
+}
+
+.pagination {
+    gap: 10px;
+}
+
+.pagination .page-link {
+    color: #304c9f;
+    font-size: 14px;
+}
+
+.pagination .active .page-link {
+    background: #00376a;
+    color: #fff;
+}
+
+.book-series-filter {
+    border: none;
+    font-weight: bold;
+
+    text-align: center;
+    /* Center-align text */
+    width: 100%;
+    /* Take full width of the cell */
+    cursor: pointer;
+    /* Change cursor to pointer */
+}
+
+.classesCourse {
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 6px;
+    padding: 15px 20px;
+}
+
+.classesBx {
+    border: 1px solid #dbf3f3;
+    border-radius: 6px;
+    padding: 12px 15px;
+    text-align: center;
+    background-color: #fcfdfd;
+}
+
+.classesBx img {
+    width: 50px;
+    height: 45px;
+}
+
+.classesBx span {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.tooltip-step {
+    display: none;
+}
+
+.step:hover .tooltip-step {
+    display: block;
+}
+
+.datatable-sorter {
+    padding-right: 20px !important;
+}
+
+.tbleDiv .table thead tr th:first-child .datatable-sorter {
+    display: none !important;
+}
+
+.fs-7 {
+    font-size: 14px !important;
+}
+
+.select2-container {
+    z-index: 9999;
+}
+
+.multipleSel .select2-container {
+    z-index: 999;
+}
+
+.select2-container--default .select2-results>.select2-results__options {
+    position: relative;
+    top: -30px;
+}
+
+.errorMessage {
+    width: 100% !important;
+    margin-top: 0.25rem;
+    font-size: 0.875em !important;
+    color: red !important;
+    font-weight: 500;
+    /* font-weight: bold;  */
+}
+
+small {
+    font-size: 12px !important;
+}
+
+.badge {
+    font-size: 10px !important;
+    font-weight: 500 !important;
+}
+
+.select2-results__options {
+    background-color: #fff !important;
+}
+
+.activeBadge {
+    background-color: #e0f8e9;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+
+.inactiveBadge {
+    background-color: #fff1e7;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+
+.botmTxt {
+    position: absolute;
+    bottom: 10px;
+}
+
+.dashCard {
+    padding-bottom: 45px;
+}
+
+.tableMain tr td {
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.tableMain tr th {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.tableMain tr th:first-child {
+    width: 150px;
+    min-width: 150px;
+}
+
+.daterangepicker .ranges li.active {
+    background-color: #084298 !important;
+    color: #fff;
+}
+
+.daterangepicker .ranges li:hover {
+    background-color: #084298 !important;
+    color: #fff;
+}
+
+.daterangepicker .ranges li {
+    font-size: 13px;
+}
+
+.ranges li {
+    font-size: 13px;
+    background: #f5f5f5;
+    border: 1px solid #b9b9b9;
+    border-radius: 4px;
+    color: #000;
+    margin-bottom: 2px;
+}
+
+.rubric-divider-half {
+    width: 50%;
+    margin: 20px auto;
+    border-top: 2px solid #ccc;
+}
+
+.setting-card-title {
+    font-size: 16px;
+    font-weight: 700;
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.761" height="26.91" viewBox="0 0 28.761 26.91">
+  <g id="Group_53679" data-name="Group 53679" transform="translate(-27.542 -38.639)">
+    <path id="Path_44647" data-name="Path 44647" d="M78.458,40.064V63.652h2.87V40.085a1.446,1.446,0,0,0-1.446-1.446A1.4,1.4,0,0,0,78.458,40.064Zm-20.956,0V63.652h2.87V40.085a1.446,1.446,0,0,0-1.446-1.446A1.4,1.4,0,0,0,57.5,40.064Z" transform="translate(-27.462)" fill="#0e538c"/>
+    <path id="Path_44648" data-name="Path 44648" d="M56.3,323.437a2.08,2.08,0,0,1-2.047,1.65H29.587a2.079,2.079,0,0,1-2.045-1.644,2.121,2.121,0,0,1,2.067-1.655H54.255a2.079,2.079,0,0,1,2.047,1.65Z" transform="translate(0 -259.538)" fill="#0b4870"/>
+    <rect id="Rectangle_20754" data-name="Rectangle 20754" width="18.086" height="0.755" transform="translate(32.89 43.344)" fill="#d3d3d3"/>
+    <circle id="Ellipse_2133" data-name="Ellipse 2133" cx="2.374" cy="2.374" r="2.374" transform="translate(45.062 41.315)" fill="#ffbe55"/>
+    <rect id="Rectangle_20755" data-name="Rectangle 20755" width="18.086" height="0.755" transform="translate(32.89 50.034)" fill="#d3d3d3"/>
+    <circle id="Ellipse_2134" data-name="Ellipse 2134" cx="2.374" cy="2.374" r="2.374" transform="translate(45.062 47.984)" fill="#2a94f4"/>
+    <circle id="Ellipse_2135" data-name="Ellipse 2135" cx="2.374" cy="2.374" r="2.374" transform="translate(39.688 47.984)" fill="#2a94f4"/>
+    <rect id="Rectangle_20756" data-name="Rectangle 20756" width="18.086" height="0.755" transform="translate(32.89 56.703)" fill="#d3d3d3"/>
+    <path id="Path_44649" data-name="Path 44649" d="M242.4,233.319a2.374,2.374,0,1,1-2.374-2.374A2.374,2.374,0,0,1,242.4,233.319Z" transform="translate(-192.586 -176.271)" fill="#ffbe55"/>
+    <circle id="Ellipse_2136" data-name="Ellipse 2136" cx="2.374" cy="2.374" r="2.374" transform="translate(39.547 54.707)" fill="#ffbe55"/>
+    <g id="Group_53678" data-name="Group 53678" transform="translate(34.203 47.984)">
+      <circle id="Ellipse_2137" data-name="Ellipse 2137" cx="2.374" cy="2.374" r="2.374" transform="translate(0 0)" fill="#2a94f4"/>
+    </g>
+  </g>
+</svg>
